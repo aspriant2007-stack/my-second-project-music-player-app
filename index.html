@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music web page </title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+   
+</head>
+<body>
+    <h1>Music player</h1> <br>
+    <div id="sec1">
+        <div class="sec1"> 
+            <div class="search-box">
+  
+  <input type="text" placeholder="Search..." id="search"><i class="bi bi-search"></i>
+</div>
+<div class="imagebox"></div>
+<div id="songname"></div>
+<div class="player">
+    <audio controls id="song">
+        <source src="" type="audio/mpeg">
+    </audio>
+</div>
+<div id="ran">
+
+   <input type="range" min="0" max="100" step="1" value="0" id="range" ></div>
+   <div id="nav">
+    <nav>
+        <ul>
+            <li><i class="bi bi-skip-backward-circle-fill"></i></li>
+            <li><i class="bi bi-play-fill"></i></li>
+            <li><i class="bi bi-skip-forward-circle-fill"></i></li>
+        </ul>
+    </nav>
+   </div>
+
+       
+    </div>
+    
+    
+</body>
+<script src="javascript.js"></script>
+</html>
